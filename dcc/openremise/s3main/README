@@ -35,8 +35,9 @@ Captures
   app_adr_high_low_extended.sr                                  Extended loco 1337, app:adr_high and app:adr_low
   app_dyn_0.sr                                                  Dyn datagrams with subindices X0 and X46
   app_dyn_1.sr                                                  Dyn datagrams with subindices X0, X7, X26, X27 and X46
-  app_pom_0.sr                                                  CV=3
+  app_pom_0.sr                                                  CV3
   app_search.sr                                                 Track search loco 3
+  app_xpom.sr                                                   CV1 CV267 CV65286 CV701
   basic_accessory_decoder_control.sr                            Basic accessory 346, output0=1
   basic_accessory_decoder_nop.sr                                Basic accessory nop
   consist_control_set_consist_address.sr                        Basic loco 7, sets consist address reversed=1 address=109
