@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+DCC model train captures
+-------------------------------------------------------------------------------
+
+Captures of a PIKO SmartDecoder XP 5.1 (1.7.0) decoder.
+
+
+Logic analyzer setup
+--------------------
+
+The logic analyzer used was a Pico2 (samplerate 1MHz) with an OpenRemise sniffer board (https://github.com/OpenRemise/Sniffer).
+
+  Probe       DCC
+  ------------------
+  D2
+  D3
+  D4          P track
+  D5          N track
+  D6          BIDI
+
+
+Captures
+--------
+
+  Capture                            Action
+  -----------------------------------------------
+  cv_access_long_form_verify_byte.sr Verify CV1=0
+  cv_access_long_form_write_byte.sr  Write CV1=4
