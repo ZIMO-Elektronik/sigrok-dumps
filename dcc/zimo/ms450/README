@@ -26,3 +26,4 @@ Captures
   ------------------------------------------------------------
   cv_access_long_form_write_byte.sr     Write CV1=4
   cv_access_short_form_write_cv17_18.sr Write CV17=197 CV18=57               
+  logon_select_short_info.sr            SELECT ShortInfo
